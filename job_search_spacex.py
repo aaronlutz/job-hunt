@@ -324,18 +324,16 @@ def run_new_search(fresh_start=False, to_page=0):
 	file_names = {'ids': 'csv_logs\\spacex_job_ids.csv',
 				  'pos': 'csv_logs\\spacex_positions.csv',
 				  'unseen': 'csv_logs\\spacex_unseen_job_ids.csv'}
+
+	msg  = '\n█████████████████████████'
+	msg += '\n██   SpaceX Job Hunt   ██'
+	msg += '\n█████████████████████████\n'
+	print(msg)
+
+
 	# Delete files to erase record of seen files
 	if fresh_start:
-		msg  = '\n████████████████████████████████████████████'
-		msg += '\n██   SpaceX Supply Chain Career Search    ██'
-		msg += '\n████████████████████████████████████████████\n'
-		print(msg)
 		delete_files(file_names)
-	else:
-		msg  = '\n████████████████████████████████████████████'
-		msg += '\n██   SpaceX Supply Chain Career Search    ██'
-		msg += '\n████████████████████████████████████████████\n'
-		print(msg)
 
 	# Headless Driver
 	print('Starting Up')
@@ -357,9 +355,9 @@ def run_new_search(fresh_start=False, to_page=0):
 	if len(unseen) != 0:
 		screenshot_positions(driver, unseen)
 	else:
-		msg  = '\n░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░'
-		msg += '\n░░ All Positions Listed Previously Viewed ░░'
-		msg += '\n░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\n'
+		msg  = '\n░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░'
+		msg += '\n░░ All Positions Previously Viewed ░░'
+		msg += '\n░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\n'
 		print(msg)
 	driver.quit()
 	# Email Unseen Position Screenshots
