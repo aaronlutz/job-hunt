@@ -1,0 +1,7 @@
+job_images/
+result_images/
+spacex_job_images/
+__pycache__/
+geckodriver.log
+credentials.json
+geckodriver
