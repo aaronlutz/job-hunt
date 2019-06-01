@@ -1,0 +1,9 @@
+{
+  "driver_path": "C:\\Users\\aaron\\Documents\\python_work\\going_headless\\geckodriver.exe",
+  "file_names":
+    {
+      "ids": "csv_logs\\spacex_job_ids.csv",
+    	"pos": "csv_logs\\spacex_positions.csv",
+    	"unseen": "csv_logs\\spacex_unseen_job_ids.csv"
+    }
+}

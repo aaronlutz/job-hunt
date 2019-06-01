@@ -1,0 +1,20 @@
+{
+  "PositionTypes": [
+    "Full-Time"],
+  "Locations": [
+    "Hawthorne, CA, United States",
+    "Redmond, WA, United States",
+    "Remote - Los Angeles, CA, United States",
+    "Remote - Seattle, WA, United States",
+    "Vandenberg, CA, United States"],
+  "Departments": [
+    "Information Technology - Applications Development",
+    "Information Technology - Enterprise Data Architecture",
+    "Information Technology - Infrastructure Design and Support",
+    "Information Technology - Product Management and Analysis",
+    "Manufacturing and Production - Operations",
+    "Mission Management",
+    "Software Development",
+    "Supply Chain Management"
+  ]
+}
